@@ -26,11 +26,13 @@ public class MyFrame extends JFrame{
         label.setVerticalTextPosition(JLabel.TOP);
         label.setForeground(Color.black);
         label.setFont(new Font("MV Boli", Font.PLAIN, 20));
-        label.setIconTextGap(-25);
+        label.setIconTextGap(-10);
         label.setBackground(Color.red);
         label.setOpaque(true); // display background color around its limits it takes
         // label expands
         label.setBorder(border);
+        label.setVerticalAlignment(JLabel.CENTER);
+        label.setHorizontalAlignment(JLabel.CENTER);
 
 
 
