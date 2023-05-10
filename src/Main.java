@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class Main {
 
@@ -11,8 +12,11 @@ public class Main {
 
         ImageIcon image = new ImageIcon("bread.png");
         frame.setIconImage(image.getImage());
+        frame.getContentPane().setBackground(new Color(0, 0, 0));
+
 
         frame.setVisible(true);
+
 
 
 
